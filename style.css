@@ -1,0 +1,423 @@
+/*=============== COLORS ===============--*/
+/* dark gray rgb(25, 26, 31) 
+	light green rgb(11,203,47)
+	red rgb(11,203,47)
+*/
+
+/*=============== FONTS ===============--*/
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Mr Dafoe', cursive;
+*/
+
+/*=============== GENERAL ===============--*/
+* {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 0px; /* required for bootstrap's fixed top navigation */
+}
+
+ul {
+	list-style: none;
+}
+
+.hidden {
+	opacity: 1;
+}
+
+.highlight-title {
+
+}
+
+.cta-btn {
+	background: rgb(11,203,47);
+	color: #efefef;
+	border: 1px solid rgb(11,203,47);
+	font-size: 1.8em;
+	margin: 1em;
+	border-radius: 0; 
+	transition: all .3s;
+}
+
+.cta-btn {
+	background: rgba(11,203,47, .7);
+	color: #efefef;
+	border: 1px solid rgb(11,203,47);
+}
+
+/*=============== NAVIGATION ===============--*/
+#brand {
+	color: #ddd;
+	font-size: 2.8em;
+	font-style: italic;
+	color: #efefef;
+	letter-spacing: .1em;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.navbar {
+	background: none;
+	color: #1e1e1e;
+	border: none;
+	text-shadow: none;
+}
+
+.navbar-header {
+	float: none;
+}
+
+.navbar-toggle {
+	display: block;
+	padding: 15px;
+	margin: 0;
+	height: 50px;
+	border-radius: 0;
+ 	background: rgb(11,203,47)!important;
+}
+
+.navbar-collapse {
+	text-align: center;
+	border: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-fixed-top {
+	top: 0;
+}
+
+.navbar-collapse.collapse {
+	display: none!important;
+}
+
+.navbar-nav {
+	float: none!important;
+}
+
+.navbar-nav>li {
+	float: none;
+}
+
+.collapse.in {
+	background: rgba(239, 239, 239, 1);
+ 	display: block !important;
+ 	overflow: hidden;
+	border: none;
+    -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+}
+
+.collapsing {
+  	background: rgba(239, 239, 239, 1);
+  	position: relative;
+  	overflow: hidden;
+  	border: none;
+    -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+  	box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+}
+
+button.navbar-toggle.collapsed {
+  	border: 1px solid rgba(0, 0, 0, 0);
+  	color: #1e1e1e;
+}
+
+.navbar-inverse .navbar-toggle {
+  	border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-inverse .navbar-nav>li {
+	text-shadow: none;
+	display: inline;
+  	transition: all .3s;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	height: 100%;
+	padding: 25px;
+	background: rgba(239, 239, 239, 1);
+ 	display: block !important;
+ 	overflow: hidden;
+	border: none;
+    -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  	font-size: 2em;
+  	padding: 25px;
+  	text-shadow: none;
+  	width: 10em;
+  	display: inline;
+}
+
+.navbar-inverse .navbar-nav>li {
+	transition: all .3s;
+}
+
+.navbar-inverse .navbar-nav>li:hover {
+  	background: #01D8A3;
+}
+
+		/* ======= category ======= */
+#catalogue {
+	text-align: left;
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 1px solid lightgray;
+}
+
+.category-row {
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+.category-list{
+	text-align: left;
+}
+
+.category-sublist {
+	border-left: 1px solid rgb(11,203,47);
+}
+
+.category-sublist>li {
+	margin-top: .5em;
+}
+
+.category-sublist>li>a {
+	color: #aaa;
+	padding: .3em;
+	display: inline;
+	transition: all .3s;
+}
+
+.category-sublist>li>a:hover {
+	text-decoration: none;
+	padding-left: 1em;
+	background-color: #01D8A3;
+	background-size: 50%;
+	height: 1em;
+	color: #efefef;
+}
+
+.category-subsublist>li {
+	font-size: .85em;
+	padding-top: .3em;
+	display: none; /* temp */ 
+}
+
+.category-subsublist>li>a {
+	display: inline;
+	padding-top: .3em;
+	color: #bbb;
+	transition: all .3s;
+}
+
+.category-subsublist>li>a:hover {
+	text-decoration: none;
+	background-color: #01D8A3;
+	background-size: 50%;
+	height: 1em;
+	color: #efefef;
+}
+
+.category-title>a {
+	color: #888;
+	padding: .5em .4em;
+	font-size: 1.3em;
+	transition: all .3s ease-in-out;
+}
+
+.category-title>a:hover {
+	text-decoration: none;
+	padding-left: 1em;
+	background-color: #01D8A3;
+	background-size: 50%;
+	height: 1em;
+	color: #efefef;
+}
+
+/*=============== HEADER ===============--*/
+header {
+	background: url('img/salad.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: center;
+	height: 100vh;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+#header-text {
+	text-align: center;
+	color: #efefef;
+	padding-top: 25vh;
+	position: absolute; 
+	border: 1px solid #efefef;
+	height: 100vh;
+	width: 100%;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQoU2NkYGD4zwABjFAaKwWSJFohNhMwNOOyjmiFGLaQ5MbB7hkASpIIC0Sfwy4AAAAASUVORK5CYII=') repeat;
+	overflow: hidden;
+}
+
+#header-text h1 {
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 10em;
+}
+
+.curious {
+	background: rgba(1,216,163, .7); 
+	border: 1px solid rgba(1,216,163, .7);
+}
+
+/*=============== DIVIDER ===============--*/
+#divider-lg {
+	/*background: rgb(1,216,163);*/
+	background: #efefef;
+	height: 10px;
+}
+
+#divider-gr {
+	/*background: rgb(11,203,47);*/
+	background: #eee;
+	height: 10px;
+}
+
+/*=============== FEATURED ===============--*/
+#featured {
+	padding-right: 20em;
+}
+
+.featured-content {
+	position: relative;
+    float:left;
+    width:100%;
+}
+
+.overview {
+	text-align: center;
+	color: #efefef;
+	position: relative;
+}
+
+.info {
+	font-size: 1.5em;
+	padding-top: 1em;
+	float: none;
+}
+
+.info-left {
+	float: left;
+}
+
+.info-right {
+	float: right;
+}
+
+.easy>i {
+	color: green;
+}
+
+.inactive {
+	color: #ddd;
+}
+
+#featured-col1 {
+    float:left;
+   	background: url('img/burger.jpg');
+   	background-size: cover;
+   	background-position: center;
+   	background-attachment: center;
+   	height: 45em;
+}
+
+#featured-col2 {
+    float:left;
+}
+
+#featured-col3 {
+    float:left;
+}
+
+
+.highlight-title {
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.featured-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 20%;
+	background: rgba(0,0,0, .3);
+}
+
+	/*========== INGREDIENTS ======= */
+
+	.ingredients {
+		position: relative;
+	}
+
+	.ingredients-list:first-child {
+	}
+
+	.ingredients-title {
+		display: inline-block;
+		border-bottom: 3px solid rgb(1,216,163);	
+	}
+
+	.ingredients-subtitle {
+		margin-top: 1.5em;
+	}
+
+	.ingredients-number {
+		font-size: 1.3em;
+		padding-right: .5em;
+	}
+
+	.ingredients-list>li {
+		border-bottom: 1px dashed lightgray;
+	}
+
+	/*========== INSTRUCTIONS ======= */
+	.directions {
+	}
+
+	.instructions-title {
+		display: inline-block;
+		margin-bottom: 1.2em;
+		border-bottom: 3px solid rgb(1,216,163);
+	}
+
+/*=============== CATEGORIES ===============--*/
+#categories {
+	background: ;
+}
+/*=============== CONTACT ===============--*/
+#contact {
+	background: ;
+}
+
+/*=============== FOOTER ===============--*/
+#footer {
+	background: #333;
+}

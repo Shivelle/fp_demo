@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Porn</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Open+Sans" rel="stylesheet">
+	<!-- Animate -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--=============== NAVIGATION ===============-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container" id="nav-container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false" aria-controls="hamburger">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home" id="brand"><span id="f"></span>F<span id="p">P</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="hamburger">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#categories" id="marked">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>   
+          <div id="catalogue">
+            <ul class="category-list">
+
+            <div class="row category-row">
+              <li class="category-title col-md-2"><a href="#">Breakfast</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Pancakes</a></li>
+                      <li><a href="#">Cereals</a></li>
+                      <li><a href="#">Pastries</a></li>
+                    </ul><!-- /.category-sublist -->
+              </li>
+                <li class="category-title col-md-2"><a href="#">Main Dishes</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Pizza</a></li>
+                      <li><a href="#">Pasta</a></li>
+                      <li><a href="#">Meat</a></li>
+                      <li><a href="#">Fish</a></li>
+                      <li><a href="#">Vegetarian</a></li>
+                      <li><a href="#">Vegan</a></li>
+                      <li><a href="#">Dietary</a>
+                        <ul class="category-subsublist">
+                          <li><a href="#">gluten-free</a></li>
+                          <li><a href="#">low-carb</a></li>
+                          <li><a href="#">high-carb</a>/li>
+                          <li><a href="#">Weight Watchers</a></li>
+                          <li><a href="#">Atkins</a></li>
+                        </ul><!--/.category-subsublist -->
+                      </li>
+                    </ul><!--/.category-sublist -->
+                </li>
+                <li class="category-title col-md-2"><a href="#">Side Dishes</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Potatoes</a></li>
+                      <li><a href="#">Noodles</a></li>
+                      <li><a href="#">Vegetables</a></li>
+                    </ul><!-- /.category-sublist -->
+                </li>
+                <li class="category-title col-md-2"><a href="#">Starters</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Soups</a></li>
+                      <li><a href="#">Salads</a></li>
+                      <li><a href="#">Antipasti</a></li>
+                    </ul><!-- /.category-sublist -->
+                </li>
+                <li class="category-title col-md-2"><a href="#">Desserts</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Ice Cream</a></li>
+                      <li><a href="#">Flummery</a></li>
+                      <li><a href="#">Pastries</a></li>
+                      <li><a href="#">Cakes</a></li>
+                    </ul><!-- /.category-sublist -->
+                </li>
+                <li class="category-title col-md-2"><a href="#">Seasonals</a>
+                    <ul class="category-sublist">
+                      <li><a href="#">Thanksgiving</a></li>
+                      <li><a href="#">Christmas</a></li>
+                      <li><a href="#">Barbeque</a></li>
+                    </ul><!-- /.category-sublist -->
+                </li>                  
+
+            </div><!-- /.category-row -->         
+
+          </ul>  
+          </div><!-- /#catalogue --> 
+          
+      </ul><!--/.navbar-right-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--=============== HEADER ===============-->
+<header>
+	<div class="jumbotron container" id="header-text">
+		<h1>Foodporn.</h1>
+		<button class="btn btn-default cta-btn">I'm hungry!</button>
+    <button class="btn btn-default cta-btn curious">I'm curious</button>	
+  </div><!-- /.jumbotron -->
+</header>
+
+<!--=============== Divider ===============-->
+<div id="divider-lg"></div><!-- /#divider-lg -->
+
+<!--=============== FEATURED ===============-->
+<section id="featured">
+  <div class="container-fluid">
+    <div class="row featured-content">
+
+      <div class="featured-left">
+        <div class="col-md-4 overview" id ="featured-col1">
+          <div class="featured-title">
+            <h2>
+              Beer Burger
+            </h2>
+          </div><!-- /.title --> 
+          <div class="info">
+            <div class="info-left">
+              <i class="fa fa-clock-o" aria-hidden="true"></i> 1h
+            </div><!-- /.info-left -->
+            
+            <div class="info-right">
+              <span class="easy">easy <i class="fa fa-tint" aria-hidden="true"></i></span><span class="inactive"><i class="fa fa-tint" aria-hidden="true"></i><i class="fa fa-tint" aria-hidden="true"></i></span>
+            </div><!-- /.info-right -->
+                         
+          </div><!-- /.info -->
+          <div class="foodpic">
+            <!--<img src="img/burger.jpg" alt="Beer Burger" class="img img-responsive">-->
+          </div><!-- /.foodpic -->     
+        </div><!-- /.overview -->
+      </div><!-- /.featured-left -->
+
+        <div class="featured-right col-md-8">
+          <div class="row">
+            <h3 class="highlight-title">
+              Recipe of the Day
+            </h3><!-- /.highlight-title -->
+            <div class="col-md-6 col-sm-12 ingredients" id="featured-col2">
+              <ul class="ingredients-list">
+                <h3 class="ingredients-title">Ingredients</h3>
+                <h4 class="ingredients-subtitle">
+                  Beer Braised Onions
+                </h4><!-- /.ingredients-title -->
+                <li><span class="ingredients-number">1</span>tablespoon butter</li>
+                <li><span class="ingredients-number">1</span>large onion, sliced thin</li>
+                <li><span class="ingredients-number">1</span>cup beer</li>
+                <li><span class="ingredients-number">1</span>teaspoon sugar</li>
+                <li><span class="ingredients-number">0.5</span>teaspoon salt</li>
+              </ul><!-- /.ingredients-list -->
+
+              <ul class="ingredients-list">
+                <h4 class="ingredients-subtitle">
+                  Burgers
+                </h4><!-- /.ingredients-title -->
+                <li><span class="ingredients-number">1.5</span>lbs ground chuck</li>
+                <li><span class="ingredients-number">2</span>tablespoons beer</li>
+                <li><span class="ingredients-number">0.5</span>teaspoon Tabasco sauce</li>
+                <li><span class="ingredients-number">0.25</span>teaspoon Worcestershire sauce</li>
+                <li><span class="ingredients-number">-</span>salt and pepper</li>
+                <li><span class="ingredients-number">4</span>hamburger buns</li>
+                <li><span class="ingredients-number">4</span>slices cheese (your choice)</li>
+              </ul><!-- /.ingredients-list -->
+            </div><!-- /.ingredients -->
+
+            <div class="col-md-6 col-sm-12 directions" id="featured-col3">
+              <h3 class="instructions-title">
+                Instructions
+              </h3><!-- /.instructions-title -->
+              <p><strong>Onions:</strong> melt butter in saucepan over medium-high heat. Add onions and saute, stirring frequently, until tender, about 5-6 minutes. Add 3/4 cup beer, sugar, and salt. Cook until all the beer has been absorbed by the onions and they begin to brown slightly, about 18 minutes. Add the remaining 1/4 cup beer and bring to a simmer. Keep onions warm.</p>
+              <p><strong>Burgers:</strong> In a large bowl, thoroughly combine the ground chuck, Tabasco sauce, Worcestershire sauce, and salt and pepper. Gently form into 4 patties, handling as little as possible so as not to make the burgers tough.</p>
+              <p>Grill burgers to your desired degree of doneness.</p>
+              <p>Toast buns on the grill.</p>
+              <p>Serve burgers on the toasted buns topped with the cheese, beer braised onions and ketchup.</p>
+            </div><!-- /.directions -->
+            
+          </div><!-- /.row -->
+        </div><!-- /.featured-right -->
+
+
+    
+
+
+
+    </div><!-- /.row -->
+
+
+
+  </div><!-- /.about-content -->
+</section>
+
+<!--=============== Divider ===============-->
+<div id="divider-gr"></div><!-- /#divider-gr -->
+
+<!--=============== CATEGORIES ===============-->
+<section id="categories">
+  <div class="container categories-content">
+    <div class="categories-title">
+      <h3>
+      Categories
+      </h3>
+    </div><!-- /.title -->    
+  </div><!-- /.about-content -->
+</section>
+
+<!--=============== Divider ===============-->
+<div id="divider-lg"></div><!-- /#divider-lg -->
+
+<!--=============== CONTACT ===============-->
+<section id="contact">
+  <div class="container contact-content">
+    <div class="contact-title">
+      <h3>
+      Contact
+      </h3>
+    </div><!-- /.title -->    
+  </div><!-- /.about-content -->
+</section>
+
+<!--=============== SECTION ===============-->
+<section id="">
+	
+</section>
+
+<!--=============== FOOTER ===============-->
+<footer>
+	
+</footer>
+
+<!-- SCRIPTS -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Custom SCRIPT -->
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
